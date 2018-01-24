@@ -41,8 +41,18 @@ public class Card {
     return value;
   }
 
+  /**
+   * Getter method for the suit.
+   * @return int.
+   */
   public int getSuit() {
-    
+    return suit;
   }
+
+  public String cardString(int rank) {
+    return values[value];
+  }
+
+
 
 }
